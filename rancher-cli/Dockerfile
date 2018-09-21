@@ -1,5 +1,5 @@
-FROM rancher/cli:latest
-LABEL maintainer="ayaz.badouraly@via.ecp.fr"
+FROM rancher/cli:v0.6.12
+LABEL maintainer="dantebarba@gmail.com"
 
 COPY entrypoint.sh /
 
